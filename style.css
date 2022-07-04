@@ -1,0 +1,333 @@
+#home{
+  
+  
+  align-items:center; 
+  width:100%;
+  height: 100%; 
+}
+
+ .contentBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;}
+.h100{
+  height: 100%;
+}
+.banner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(./photo/tourist.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.content h2{
+  animation: text 3s 1;
+}
+@keyframes text{
+  0%{
+    color:black;
+    margin-bottom: -40px;
+
+  }
+  30%{
+  letter-spacing :25px;
+  margin-bottom: -40px;
+}
+85%{
+  letter-spacing: 8px;
+  margin-bottom: -40px;
+}
+}
+.contentBox h1 {
+  
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+.content{
+  margin-top: -250px;
+  color: #00070d;
+}
+#about{
+  margin-top: 20px;
+}
+body{
+  background-color: #bac4ce;
+}
+
+
+   *{
+    box-sizing: border-box;
+  }
+  
+ .section2 .body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .section2 .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 4px;
+  }
+.section2 .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px 4px;
+  padding-left: 40px;
+}
+
+.section2 .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.section4 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section4 .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.select{
+  margin-top: 20px;
+}
+.section4{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  position: relative;
+}
+.section4 .card{
+  margin: 5px;
+}
+.section6 .row{
+  display: -ms-flexbox;
+  display: flex;
+  
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.section6 .card{
+  margin: 5px;
+}
+.col-6{
+  margin-left: 150px;
+}
+.reg{
+  position: relative;
+   
+    width: 100%;
+    height: 100vh;
+    background: url(./photo/desert.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+}
+.regform{
+width: 800px;
+background-color:rgb(0, 0, 0, 0.5);
+margin:auto;
+color: #fff;
+padding:10px,0px,10px,0px;
+text-align: center;
+border-radius: 15px 15px 0 0;}
+.main{
+  background-color:rgb(0, 0, 0, 0.5);
+  padding-left:10px;
+  width:800px;
+  text-align: center;
+  margin:auto;
+}
+.block{
+  margin-top: 25px;
+  font-size: medium;
+  font-weight: bold;
+  width: 125px;
+  color: white;
+}
+form div {
+ padding:10px;
+  margin: 10px;
+}
+
+#sabout{
+  position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(./photo/kerela.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+
+
+#sect4{
+  position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(./photo/tour.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    margin:0;
+  
+  box-sizing: border-box;
+ 
+}
+
+/*#frm{  
+  border: solid gray 1px;  
+  width:25%;  
+  border-radius: 2px;  
+  margin: 120px auto;  
+  background: white;  
+  padding: 50px;  
+}  
+#btn{  
+  color: #fff;  
+  background: #337ab7;  
+  padding: 7px;  
+  margin-left: 70%;  
+} */ 
+.contact{
+  position:relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .contnt{
+  max-width: 800px;
+  text-align: center;
+
+}
+.contact .contnt h2{
+  font-size:36px;
+  font-weight: 500;
+color:#fff;
+}
+
+.contact .contnt p{
+  font-weight: 500;
+  color: #fff;
+}
+.containr{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.containr .contactInfo{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.contianr .contactInfo .box{
+  position: relative;
+  padding: 20px 0;display: flex;
+  
+}
+.containr .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font: 16px;
+  color: rgb(249, 245, 245);
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.containr .contactInfo .box .text h1{
+  font-weight: 500;
+  color: #067180;
+  
+}
+.contactForm{
+  width:32%;
+  padding: 30px;
+  background: #fff;
+}
+.contactForm div{
+  padding: 0;
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm .inputBox {
+  position:relative;
+  width:100%;
+  font-weight: 500;
+}
+.contactForm .inputBox input,.contactForm .inputBox textarea{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border:none ;
+  border-bottom: 2px solid #333;
+  outline: none;
+
+}
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color: #e91e63;
+  font-size: 12px;
+  transform:translateY(-20px);
+}
+
+
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+ 
+  font-size: 18px;
+}
